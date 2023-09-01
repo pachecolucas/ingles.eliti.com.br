@@ -121,7 +121,7 @@ export default function Hero() {
       </p>
 
       <p>
-        Hi! I'm A.J.Hoge, one of the teachers of Learn Real English. And welcome
+        Hi! I`m A.J.Hoge, one of the teachers of Learn Real English. And welcome
         to our video course.
       </p>
 
