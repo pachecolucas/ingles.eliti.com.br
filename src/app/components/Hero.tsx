@@ -29,9 +29,9 @@ export default function Hero() {
       </p>
 
       <p>
-        Na ELITI não temos aulas e nem provas de inglês. Isso porque entendemos,
-        assim como o educador José Pacheco, que aula não ensina e prova não
-        avalia. Então não adiante perder tempo com isso.
+        Na ELITI não temos aulas e nem provas de inglês. Assim como o educador
+        José Pacheco, entendemos que aula não ensina e prova não avalia. Por
+        isso, não perdemos tempo presos a métodos tradicionais sem resultado.
       </p>
 
       <p>
