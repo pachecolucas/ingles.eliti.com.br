@@ -40,7 +40,12 @@ export default function Hero() {
       </p>
 
       <div className="m-auto mt-10">
-        <Image src={hoge.src} width={hoge.width} height={hoge.height} />
+        <Image
+          src={hoge.src}
+          width={hoge.width}
+          height={hoge.height}
+          alt="Photo A.J.Hoge"
+        />
       </div>
       <p className="text-center uppercase text-xl font-bold">
         Conheça seu novo professor de inglês
@@ -123,7 +128,7 @@ export default function Hero() {
           <source src="/p1.mp3" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
-        Hi! I'm A.J.Hoge, one of the teachers of Learn Real English. And welcome
+        Hi! I`m A.J.Hoge, one of the teachers of Learn Real English. And welcome
         to our video course.
         <span className="text-xs block font-normal">
           ( Olá! Eu sou A.J.Hoge, um dos professores de Aprenda Inglês Real. E
