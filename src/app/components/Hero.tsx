@@ -6,8 +6,8 @@ export default function Hero() {
       </h1>
 
       <p className="text-center uppercase text-sm font-bold text-slate-900">
-        A linguagem MAIS IMPORTANTE que um profissional de verdade da área de
-        tecnologia deve saber não é HTML, CSS ou Javascript.{" "}
+        A linguagem MAIS IMPORTANTE que um profissional da área de tecnologia
+        deve saber não é HTML, CSS ou Javascript.{" "}
         <span className="font-extrabold">É inglês</span>!
       </p>
 
@@ -17,40 +17,23 @@ export default function Hero() {
       </p>
 
       <p>
-        Apesar de ser matéria obrigatória na escola, apenas 1% dos brasileiros
-        possuem fluência neste idioma. Isso é uma triste realidade que fecha
-        portas no mundo inteiro para profissionais brasileiros.
+        Apenas 1% dos brasileiros possuem fluência neste idioma. Isso é uma
+        triste realidade que fecha portas no mundo inteiro para profissionais
+        brasileiros.
       </p>
 
       <p>
-        Mas você pode estar se perguntando porque agora vai aprender inglês de
-        verdade enquanto na escola tradicional provavelmente só ficou estagnado
-        no tal verbo To Be por anos sem resultados.
+        Agora você vai começar a aprender inglês de verdade. Chega de ficar
+        estagnado no tal verbo To Be por anos sem resultados. Aqui na ELITI não
+        perdemos tempo presos a métodos tradicionais insanos e sem resultado.
       </p>
 
       <p>
-        Na ELITI não temos aulas e nem provas de inglês. Assim como o educador
-        José Pacheco, entendemos que aula não ensina e prova não avalia. Por
-        isso, não perdemos tempo presos a métodos tradicionais sem resultado.
+        O foco aqui é conquistar fluência em inglês o mais rapidamente possível
+        e, para isso, preparamos com carinho para você um material simples e, ao
+        mesmo tempo, muito poderoso e eficaz.
       </p>
-
-      <p>
-        Lembra da rotina de se preparar para uma prova no dia anterior, tirar
-        uma nota suficiente para passar e depois de 6 meses ter esquecido tudo?
-        A ELITI não funciona assim!
-      </p>
-
-      <p>
-        O foco aqui é na sua fluência, não na sua capacidade de decorar regras
-        inúteis para fazer provas e esquecer tudo depois.
-      </p>
-
-      <p>
-        Por isso, preparamos com carinho e muita pesquisa um material simples e,
-        ao mesmo tempo, muito poderoso capaz de ajudar você a finalmente ganhar
-        fluência em inglês.
-      </p>
-
+      {/* 
       <p>E agora a melhor notícia:</p>
       <p>VOCÊ NÃO ESTÁ SOZINHO</p>
 
@@ -59,7 +42,7 @@ export default function Hero() {
         desafio. Por isso, a partir de agora, você já pode continuar conversando
         com um professor da ELITI para tirar dúvidas sobre este desafio no
         WhatApp abaixo sempre que precisar.
-      </p>
+      </p> */}
 
       <p># O que devo saber de inglês para entrar na ELITI</p>
 
@@ -71,9 +54,9 @@ export default function Hero() {
 
       <p>
         É sério! A.J.Hoge é um professor de inglês espetacular. Seu método de
-        ensino começou a chamar atenção quando suas turminas de 5º ou 6º ano no
-        lugar que ficarem repetindo o verbo To Be começaram a ficar fluentes em
-        inglês de verdade surpreendendo a todos.
+        ensino começou a chamar atenção quando suas turminas de 5º ou 6º ano
+        começaram a ficar fluentes em inglês de verdade deixando outros
+        professores transtornados.
       </p>
 
       <p>
@@ -113,11 +96,13 @@ export default function Hero() {
         primeiro objetivo:
       </p>
 
+      <h1># O que deve fazer para cumprir este desafio</h1>
+
       <p>
-        Conseguiu entender tudo? Muito bem! Agora é hora de enviar uma mensagem
-        de voz para o Whatapp abaixo onde você deve tentar ler apenas o primeiro
-        parágrafo abaixo onde A.J.Hoge diz quem ele é e dá as boas vindas ao seu
-        curso em vídeo:
+        Conseguiu entender o que o A.J.Hoge disse no primeiro parágrafo? Muito
+        bem! Agora é hora de enviar uma mensagem de voz para o Whatapp abaixo
+        onde você deve ler o primeiro parágrafo abaixo ele diz quem ele é e dá
+        as boas vindas ao seu curso em vídeo:
       </p>
 
       <p>
@@ -146,12 +131,15 @@ export default function Hero() {
 
       <p>[BTN: ENVIAR AÚDIO DO PRIMEIRO PARÁGRAFO]</p>
 
+      <h1>Material de apoio</h1>
+
+      <p>- Transcrição dos primeiros 3 parágrafos</p>
       <p>
-        Apesar de que não ser necessário enviar agora (caso seja a primeira vez
-        que você esta entrando por aqui) vamos deixar aqui também registrado a
-        transcrições dos dois parágrafos que virão a seguir apenas para
-        facilitar interações futuras e ter tudo já organizado neste site:
+        - Transcrição completa do vídeo da regra número 1 em PDF para download
       </p>
+      <p>- Link do vídeo na internet</p>
+      <p>- Apenas o áudio completo do vídeo para ouvir onde quiser</p>
+      <p>- Link do site Oficial do A.J.Hoge hoje</p>
     </div>
   );
 }
