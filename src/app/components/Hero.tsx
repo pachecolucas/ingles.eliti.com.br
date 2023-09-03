@@ -102,19 +102,13 @@ export default function Hero() {
         45 primeiros segundos deste vídeo do A.J.Hoge:
       </p>
 
-      <div className="m-auto">
-        <div className="aspect-w-16 aspect-h-9">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/WatdPSRT6rA?si=xCJRusPweUue-YQz"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-        </div>
-      </div>
+      <iframe
+        className="w-full aspect-video"
+        src="https://www.youtube.com/embed/WatdPSRT6rA"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
 
       <p>
         Sua primeira missão é conseguir entender 100% do que está escrito no
