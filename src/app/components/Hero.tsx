@@ -1,15 +1,20 @@
+import Image from "next/image";
+import hoge from "./ajh.png";
+
 export default function Hero() {
   return (
-    <div className="flex flex-col gap-5 py-10 px-5 text-slate-700">
-      <h1 className="font-bold uppercase text-xl text-center text-slate-900">
+    <div className="flex flex-col gap-10 py-5 px-5">
+      <h1 className="font-bold uppercase text-xl text-center py-5">
         Desafio <span className="text-[2em]">3</span> da ELITI
       </h1>
 
-      <p className="text-center uppercase text-sm font-bold text-slate-900">
+      <div className="text-center text-xl uppercase font-bold bg-white p-5 text-slate-800 rounded-lg shadow-xl">
         A linguagem MAIS IMPORTANTE que um profissional da área de tecnologia
         deve saber não é HTML, CSS ou Javascript.{" "}
-        <span className="font-extrabold">É inglês</span>!
-      </p>
+        <span className="font-extrabold block uppercase mt-5 text-4xl text-purple-700">
+          É inglês!
+        </span>
+      </div>
 
       <p>
         Lembra que você disse ter interesse em aprender inglês o mais rápido
@@ -23,33 +28,28 @@ export default function Hero() {
       </p>
 
       <p>
-        Agora você vai começar a aprender inglês de verdade. Chega de ficar
-        estagnado no tal verbo To Be por anos sem resultados. Aqui na ELITI não
-        perdemos tempo presos a métodos tradicionais insanos e sem resultado.
-      </p>
-
-      <p>
         O foco aqui é conquistar fluência em inglês o mais rapidamente possível
-        e, para isso, preparamos com carinho para você um material simples e, ao
-        mesmo tempo, muito poderoso e eficaz.
+        para você poder estar junto conosco em nossos encontros onde usamos
+        inglês o tempo todo.
       </p>
-      {/* 
-      <p>E agora a melhor notícia:</p>
-      <p>VOCÊ NÃO ESTÁ SOZINHO</p>
 
       <p>
-        Nós queremos te ajudar a destravar seu inglês e passar de uma vez neste
-        desafio. Por isso, a partir de agora, você já pode continuar conversando
-        com um professor da ELITI para tirar dúvidas sobre este desafio no
-        WhatApp abaixo sempre que precisar.
-      </p> */}
+        Para isso, preparamos com carinho para você um material simples e, ao
+        mesmo tempo, muito poderoso e eficaz para destravar o seu inglês de uma
+        vez por todas.
+      </p>
 
-      <p># O que devo saber de inglês para entrar na ELITI</p>
+      <div className="m-auto mt-10">
+        <Image src={hoge.src} width={hoge.width} height={hoge.height} />
+      </div>
+      <p className="text-center uppercase text-xl font-bold">
+        Conheça seu novo professor de inglês
+      </p>
 
       <p>
-        Você deve saber quem é A.J.Hoge! A gente ainda vai dar boas rizadas com
-        memes desse cara porque não existe elitiano de verdade que não sonhe com
-        a voz deste gringo falando inglês na sua cabeça o tempo todo.
+        Para entrar na ELITI você deve conhecer ninguém menos do que o melhor
+        professor de inglês do mundo: <b>A.J.Hoge</b>. Daqui pra frente, ele
+        também será o seu professor.
       </p>
 
       <p>
@@ -65,16 +65,26 @@ export default function Hero() {
         de:
       </p>
 
-      <p>7 RULES TO LEARN REAL ENGLISH</p>
-      <p>(7 regras para aprender inglês real)</p>
+      <div className="text-center uppercase text-xl font-bold bg-white p-5 text-slate-800 rounded-lg shadow-xl">
+        7 RULES TO LEARN REAL ENGLISH{" "}
+        <span className="text-xs block font-normal">
+          ( 7 regras para aprender inglês real )
+        </span>
+      </div>
 
       <p>
-        E, destas 7 regras, a única que você precisa saber agora para entrar na
+        Destas 7 regras, a única que você precisa saber agora para entrar na
         ELITI é a regra número 1:
       </p>
 
-      <p>LEARN ENGLISH PHRASES, NOT INDIVIDUAL WORDS</p>
-      <p>(Aprenda frases em inglês, não palavras individuais)</p>
+      <div className="text-center uppercase text-xl font-bold bg-white p-5 text-slate-800 rounded-lg shadow-xl">
+        LEARN ENGLISH PHRASES,
+        <br />
+        NOT INDIVIDUAL WORDS{" "}
+        <span className="text-xs block  font-normal">
+          ( Aprenda frases em inglês, não palavras individuais )
+        </span>
+      </div>
 
       <p>
         Além de poder focar agora apenas nesta primeira regra, sem precisar se
@@ -84,62 +94,116 @@ export default function Hero() {
       <p>
         Tudo que você precisa saber sobre a primeira regra está contido no 3
         primeiros parágrafos da transcrição do vídeo abaixo, ou seja, apenas os
-        x primeiros minutos deste vídeo do A.J.Hoge:
+        45 primeiros segundos deste vídeo do A.J.Hoge:
       </p>
 
-      <p>[VÍDEO]</p>
+      <div className="m-auto">
+        <div className="aspect-w-16 aspect-h-9">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/WatdPSRT6rA?si=xCJRusPweUue-YQz"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
 
       <p>
-        Abaixo temos a transcrição dos 3 primeiros parágrafos que ele falou. Sua
-        primeira missão é conseguir entender 100% do que está escrito aqui em
-        inglês. Use a internet a seu favor para te ajudar a alcançar este
-        primeiro objetivo:
+        Sua primeira missão é conseguir entender 100% do que está escrito no
+        primeiro parágrafo e nos enviar um áudio por whatsapp o mais parecido
+        possível com o que ele disse em inglês no ínicio do vídeo:
       </p>
 
-      <h1># O que deve fazer para cumprir este desafio</h1>
-
-      <p>
-        Conseguiu entender o que o A.J.Hoge disse no primeiro parágrafo? Muito
-        bem! Agora é hora de enviar uma mensagem de voz para o Whatapp abaixo
-        onde você deve ler o primeiro parágrafo abaixo ele diz quem ele é e dá
-        as boas vindas ao seu curso em vídeo:
-      </p>
-
-      <p>
-        Hi! I`m A.J.Hoge, one of the teachers of Learn Real English. And welcome
+      <div className="text-center text-xl font-bold bg-white p-5 text-slate-800 rounded-lg shadow-xl">
+        <p className="uppercase mb-3 text-purple-700">Primeiro parágrafo:</p>
+        <audio controls className="m-auto mb-4">
+          <source src="/p1.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        Hi! I'm A.J.Hoge, one of the teachers of Learn Real English. And welcome
         to our video course.
+        <span className="text-xs block font-normal">
+          ( Olá! Eu sou A.J.Hoge, um dos professores de Aprenda Inglês Real. E
+          bem vindo ao nosso curso em vídeo. )
+        </span>
+      </div>
+
+      <p>
+        Agora é sua vez de enviar uma mensagem de voz no Whatsapp abaixo
+        repetindo exatamente o que o A.J.Hoge falou em inglês neste primeiro
+        parágrafo:
+      </p>
+
+      <p className="text-center my-10">
+        <a href="#" className="action">
+          Enviar áudio por whatsapp
+        </a>
       </p>
 
       <p>
-        Sua missão agora é ouvir o vídeo quantas vezes forem necessárias,
-        entender tudo que ele esta falando e conseguir então enviar um áudio
-        para o Whatsapp abaixo imitando da forma mais parecida possível ao
-        A.J.Hoge esta primeira frase acima que ele falou.
+        Feito isso, já vamos deixar organizado aqui também o conteúdo do segundo
+        e do terceiro parágrafo que você também verá nos enviar. Mas calma. Não
+        precisa ser já.
       </p>
+
+      <div className="text-center text-xl font-bold bg-white p-5 text-slate-800 rounded-lg shadow-xl">
+        <p className="uppercase mb-3 text-purple-700">Segundo parágrafo:</p>
+        <audio controls className="m-auto mb-4">
+          <source src="/p2.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <p>
+          Now, let’s get started with Rule # 1 or Secret # 1. And Rule # 1 is to
+          always learn English phrases, and to never, never study just
+          individual words. So in this course we’re going to teach you a totally
+          new way to learn English, a totally new way to study English, so that
+          you can speak English quickly, easily, automatically, powerfully,
+          confidently.
+        </p>
+      </div>
+
+      <div className="text-center text-xl font-bold bg-white p-5 text-slate-800 rounded-lg shadow-xl">
+        <p className="uppercase mb-3 text-purple-700">Terceiro parágrafo:</p>
+        <audio controls className="m-auto mb-4">
+          <source src="/p3.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <p>
+          So what’s the old way of learning English? You know it because you
+          learned it in school. You’ve been using it for years and years and
+          years. You sit in a classroom. You’ve got a textbook. You memorize
+          lists of vocabulary words. You study lots and lots and lots of grammar
+          rules. You do lots of reading and little fake conversation drills and
+          activities. And this is the traditional old way of learning English
+          but we have a totally new and different way of learning it. And we’re
+          going to teach you each part of that, one part every day for a full
+          seven days.
+        </p>
+      </div>
 
       <p>
-        Conseguindo fazer isso, você fará posteriormente o mesmo com o segundo e
-        terceiro parágrafos também. Mas calma! Não precisa enviar todos de uma
-        vez só agora.
+        Para finalizar, vamos deixar aqui ainda um conjunto de arquivos
+        relacionados a esta atividade para facilitar interações futuras:
       </p>
 
-      <p>
-        Envie um primeiro áudio imitando apenas o que A.J.Hoge diz no primeiro
-        parágrafo acima. O professor da ELITI que estará em contato com você
-        pelo whatsapp vai avisar quando for o momento de enviar os demais.
-      </p>
+      <div className="text-center flex flex-col gap-5">
+        <p>
+          <a href="/rule1.pdf">Transcrição completa da regra número 1</a>
+        </p>
 
-      <p>[BTN: ENVIAR AÚDIO DO PRIMEIRO PARÁGRAFO]</p>
+        <p>
+          <a href="/rule1.mp3">Áudio completo da regra número 1</a>
+        </p>
 
-      <h1>Material de apoio</h1>
-
-      <p>- Transcrição dos primeiros 3 parágrafos</p>
-      <p>
-        - Transcrição completa do vídeo da regra número 1 em PDF para download
-      </p>
-      <p>- Link do vídeo na internet</p>
-      <p>- Apenas o áudio completo do vídeo para ouvir onde quiser</p>
-      <p>- Link do site Oficial do A.J.Hoge hoje</p>
+        <p>
+          <a href="https://effortlessenglishclub.com/7rules">
+            Site oficial das 7 regras do A.J.Hoge.
+          </a>
+        </p>
+      </div>
     </div>
   );
 }
