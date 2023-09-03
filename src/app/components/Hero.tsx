@@ -136,9 +136,14 @@ export default function Hero() {
         parágrafo:
       </p>
 
-      <p className="text-center my-10">
-        <a href="#" className="action">
-          Enviar áudio por whatsapp
+      <p className="text-center">
+        <a
+          href="https://api.whatsapp.com/send?phone=5548999826011&text=Meu áudio..."
+          className="bg-green-600 hover:bg-green-500 rounded-xl py-5 m-1 flex justify-center align-middle uppercase font-bold tracking-wider"
+        >
+          Enviar áudio
+          <br />
+          por WhatsApp
         </a>
       </p>
 
