@@ -149,7 +149,7 @@ export default function Hero() {
 
       <p>
         Feito isso, já vamos deixar organizado aqui também o conteúdo do segundo
-        e do terceiro parágrafo que você também verá nos enviar. Mas calma. Não
+        e do terceiro parágrafo que você também irá nos enviar. Mas calma. Não
         precisa ser já.
       </p>
 
