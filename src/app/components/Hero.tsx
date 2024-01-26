@@ -1,5 +1,5 @@
 import Image from "next/image";
-import hoge from "./ajh.png";
+import hoge from "./ajh2.png";
 
 export default function Hero() {
   return (
