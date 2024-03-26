@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <div className="flex flex-col gap-10 py-5 px-5">
       <h1 className="font-bold uppercase text-xl text-center py-5">
-        Desafio <span className="text-[2em]">3</span> da ELITI
+        Desafio <span className="text-[2em]">Inglês</span> da ELITI
       </h1>
 
       <div className="text-center text-xl uppercase font-bold bg-white p-5 text-slate-800 rounded-lg shadow-xl">
