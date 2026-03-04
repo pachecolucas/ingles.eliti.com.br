@@ -31,7 +31,7 @@ export default function Hero() {
       </p>
 
       <p>
-        É sério! A.J.Hoge é um professor de inglês espetacular. Seu método de ensino começou a chamar atenção quando suas truminhas de 5º ou 6º ano começaram a ficar fluentes em inglês de verdade
+        É sério! A.J.Hoge é um professor de inglês espetacular. Seu método de ensino começou a chamar atenção quando suas turminhas de 5º ou 6º ano começaram a ficar fluentes em inglês de verdade
         deixando outros professores transtornados.
       </p>
 
