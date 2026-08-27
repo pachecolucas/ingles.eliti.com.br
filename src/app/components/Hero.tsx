@@ -130,7 +130,48 @@ export default function Hero() {
         <p>
           <a href="https://effortlessenglishclub.com/7rules">Site oficial das 7 regras do A.J.Hoge.</a>
         </p>
+
+        <h1>Material completo com as 7 Regras</h1>
+
+        {RULES.map((r, i) => (
+          <p key={i}>
+            <a href={r.link}>
+              <strong>RULE #{i + 1}</strong>: {r.name}
+            </a>
+          </p>
+        ))}
       </div>
     </div>
   );
 }
+
+const RULES = [
+  {
+    name: "Study Phrases Not Individual Words",
+    link: "https://drive.google.com/drive/folders/0B74ctlAPPgqbbjhzdlhxQXpOMDA?resourcekey=0-kRaJoAGW3F_bwxNMMI92Ng&usp=sharing",
+  },
+  {
+    name: "Do not study Grammar Rules",
+    link: "https://drive.google.com/drive/folders/0B74ctlAPPgqbMWJtQmlocERQWXc?resourcekey=0-O_AfTahF0VeQmD9tr-wAsg&usp=sharing",
+  },
+  {
+    name: "Listen First",
+    link: "https://drive.google.com/drive/folders/0B74ctlAPPgqbaENObFNrYU5QTUU?resourcekey=0-Q7KyBBXz38k75rQx4KeWgQ&usp=sharing",
+  },
+  {
+    name: "Learn Deeply",
+    link: "https://drive.google.com/drive/folders/0B74ctlAPPgqbSXNtQkVuNE5jWW8?resourcekey=0-3J0-7oxWl-Q4WkD8-iArJA&usp=sharing",
+  },
+  {
+    name: "Use Point Of View Stories",
+    link: "https://drive.google.com/drive/folders/0B74ctlAPPgqbOW5GRFBmRmtoWWs?resourcekey=0-Tyl4aeehAsF0RaV6YPMgpg&usp=sharing",
+  },
+  {
+    name: "Use Real English Materials",
+    link: "https://drive.google.com/drive/folders/0B74ctlAPPgqbZmpLMEliUGtCdUU?resourcekey=0-06uy3Qu5a3jEZX9IMWvIsw&usp=sharing",
+  },
+  {
+    name: "Use Listen and Answer Stories",
+    link: "https://drive.google.com/drive/folders/0B74ctlAPPgqbRXhMbmltNmtMbjQ?resourcekey=0-WQEgwsayRm6zDU9I8tgxhw&usp=sharing",
+  },
+];
