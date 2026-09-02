@@ -51,7 +51,9 @@ export default function Hero() {
 
       <p>Além de poder focar agora apenas nesta primeira regra, sem precisar se preocupar com as outras 6, temos uma outra boa notícia:</p>
 
-      <p>Tudo que você precisa saber sobre a primeira regra está contido no 3 primeiros parágrafos da transcrição do vídeo abaixo, ou seja, apenas os 45 primeiros segundos deste vídeo do A.J.Hoge:</p>
+      <p>
+        Tudo que você precisa saber sobre a primeira regra está contido nos 3 primeiros parágrafos da transcrição do vídeo abaixo, ou seja, apenas os 45 primeiros segundos deste vídeo do A.J.Hoge:
+      </p>
 
       <iframe
         className="w-full aspect-video"
